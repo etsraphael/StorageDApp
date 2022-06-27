@@ -1,5 +1,5 @@
 import { BigInt } from '@graphprotocol/graph-ts';
-import { Approval, Transfer } from '../generated/Contract/Contract';
+import { Approval, Transfer } from '../generated/TeaToken/TeaToken';
 import { ExampleEntity } from '../generated/schema';
 
 export function handleApproval(event: Approval): void {
@@ -36,7 +36,7 @@ export function handleApproval(event: Approval): void {
   // example, the contract that has emitted the event can be connected to
   // with:
   //
-  // let contract = Contract.bind(event.address)
+  // let contract = TeaToken.bind(event.address)
   //
   // The following functions can then be called on this contract to access
   // state variables and other data:
