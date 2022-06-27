@@ -1,9 +1,9 @@
-specVersion: 0.0.1
+specVersion: 0.0.5
 schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum
-    name: undefined
+    name: contract
     network: bsc
     source:
       address: "0xC959D6388058a326c59508e2beAB8Be12de4E0C3"
